@@ -109,7 +109,7 @@ Apple Watch 心率数据采集 - Your Soul, Your Beats!
 
 <!--END_SECTION:my_heart_rate-->
 
-# 原作者步骤步骤
+# 原作者的步骤
 参考 https://github.com/yihong0618/iBeats/blob/main/README.md
 
 # 本仓库作者的步骤（系统是 iOS 15.5）
