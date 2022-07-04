@@ -126,8 +126,6 @@ Apple Watch 心率数据采集 - Your Soul, Your Beats!
 
 1. 网络请求这个步骤中除了需要添加 Authorization 的 github token. 还需要 添加 User-Agent, 可以使用这个值: `User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36`
 
-2. 最后2个步骤是实现无限循环的步骤,有需要可以加上
-
 # GitHub Actions
 
 1. fork or clone this repo
