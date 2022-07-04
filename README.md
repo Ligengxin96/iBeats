@@ -109,20 +109,24 @@ Apple Watch 心率数据采集 - Your Soul, Your Beats!
 
 <!--END_SECTION:my_heart_rate-->
 
-# 步骤
-1. 参考我的博客 -- [巧妙利用 iOS 的快捷指令配合 GitHub Actions 实现自动化](https://github.com/yihong0618/gitblog/issues/198) 拿到 action id
-2. 配置 iOS 的捷径，捷径如图
+# 原作者步骤步骤
+参考 https://github.com/yihong0618/iBeats/blob/main/README.md
 
-![image](https://user-images.githubusercontent.com/15976103/122154218-0db0b480-ce97-11eb-93bb-5aec07c558dc.png)
+# 本仓库作者的步骤（系统是 iOS 15.5）
 
-![image](https://user-images.githubusercontent.com/15976103/122154236-186b4980-ce97-11eb-8e4b-70551a0391ae.png)
+![image](https://user-images.githubusercontent.com/46650314/177103133-6cdda67b-b975-4844-b07e-5e1d67ad4ac6.png)
 
-![image](https://user-images.githubusercontent.com/15976103/122154268-2d47dd00-ce97-11eb-902e-3acf292265a9.png)
+![image](https://user-images.githubusercontent.com/46650314/177102531-39c0e32f-e629-4366-ac47-efc0ba2ef571.png)
 
-![image](https://user-images.githubusercontent.com/15976103/122174055-fa144680-ceb4-11eb-9be2-3eb83cd516f7.png)
+![image](https://user-images.githubusercontent.com/46650314/177102599-52b5fff0-2872-4f9d-9470-c19acd4fabba.png)
 
-3. 也可以参考 @L1cardo 分享的[捷径](https://www.icloud.com/shortcuts/6ab6047b459c41ad822ad6b94b1c03d4)
-4. 跑完 Actions 之后生成的 svg 引用到自己的 README 或 profile 中，我的[例子](https://github.com/yihong0618) 
+![image](https://user-images.githubusercontent.com/46650314/177102648-7cf49c04-119d-4dc3-af78-5439e3cc0795.png)
+
+![image](https://user-images.githubusercontent.com/46650314/177102689-4311d73c-003f-4f29-bb13-2ca2f7485a5c.png)
+
+1. 网络请求这个步骤中除了需要添加 Authorization 的 github token. 还需要 添加 User-Agent, 可以使用这个值: `User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36`
+
+2. 最后2个步骤是实现无限循环的步骤,有需要可以加上
 
 # GitHub Actions
 
